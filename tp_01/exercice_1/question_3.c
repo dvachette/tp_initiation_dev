@@ -1,4 +1,4 @@
-# include <stdio.h> // Importation permettant d'utiliser printf 
+# include <stdio.h> // Importation permettant d'utiliser printf et scanf
 // ATTENTION, TVA MODIFIEE A 10.0
 # define TVA 10.0 // Definition de TVA en tant qu'alias de 10.0 . On peut aussi faire "const float TVA = 10.0;"
 
