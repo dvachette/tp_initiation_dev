@@ -11,7 +11,7 @@ int main(){
     a = 2024; // Affectation de 2024 à a
     m = 8; // Affectation de 8 à m
     j = 25; // Affectation de 25 à j
-    date = vers_date(j, m, a);
+    date = vers_date(j, m, a); // calcul de la date avec la fonction vers_date
     printf("Avec a:%d, m:%d et j:%d, on obtient %d\n", a, m, j, date); // Affichage du resultat dans la console
     return 0; // Renvoi de 0 (Tout s'est bien passé)
 }
