@@ -27,5 +27,5 @@ int plus_petit3(int a, int b, int c){
 }
 
 int deux_plus_grands(int a, int b, int c) {
-    return a + b + c - plus_petit3(a, b, c);;
+    return a + b + c - plus_petit3(a, b, c);
 }
