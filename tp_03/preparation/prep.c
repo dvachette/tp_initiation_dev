@@ -13,7 +13,7 @@ int main() {
     int k = 5, m;                                                   // i = 0, j = 12, k = 5, m = ?
     i = 1;                                                          // i = 1, j = 12, k = 5, m = ?
     m = mafonction(k);                                              // i = 1, j = 6,  k = 5, m = 9
-    printf("i = %d, j = %d, k = %d, m = %d \n", i, j, k, m);
+    printf("i = %d; j = %d; k = %d; m = %d;\n", i, j, k, m);
     return 0;
 }
 
