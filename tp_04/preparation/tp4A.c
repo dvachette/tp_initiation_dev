@@ -10,7 +10,7 @@ double reduction(double);
 double reduction(double prix) {
     assert(prix > 0);
     double prix_red = prix; 
-    if (prix > 100) { // le prix doit etre superieur a 100 et pas superieur ou egal
+    if (prix >= 100) { // le prix doit etre superieur a 100 et pas superieur ou egal
         prix_red = prix - 10;
     }
     return prix_red; // Le cahier des charges demmande que le prix original modifié soit renvoyé, 
