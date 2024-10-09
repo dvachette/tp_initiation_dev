@@ -12,7 +12,7 @@ char vers_majuscule(char carac);
 char vers_minuscule(char carac) {
     assert((carac >= 65) && (carac <= 90));
     char carac_min;
-    carac_min += 32;
+    carac_min = carac + 32;
     return carac_min;
 }
 
@@ -25,7 +25,7 @@ char vers_minuscule(char carac) {
 char vers_majuscule(char carac) {
     assert((carac >= 65) && (carac <= 90));
     char carac_maj;
-    carac_maj -= 32;
+    carac_maj = carac - 32;
     return carac_maj;
 }
 
