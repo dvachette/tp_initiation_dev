@@ -32,8 +32,8 @@ double reduction(double prix) {
 */
 int main() {
     assert(reduction(1) == 1);
-    assert(reduction(100) == 100);
     assert(reduction(100.2) == 90.2);
     assert(reduction(99) == 99);
+    assert(reduction(100) == 100);
     return 0;
 }
