@@ -13,7 +13,7 @@ double reduction(double prix) {
     if (prix >= 100) {
         prix_red = prix - 10;
     }
-    return prix_red; // Le cahier des charges demmande que le prix original modifié soit renvoyé, 
+    return prix_red; // Le cahier des charges demande que le prix original modifié soit renvoyé, 
 }
 /*
 /**
