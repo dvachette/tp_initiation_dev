@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1727938226 source:/home/donat/Documents/tp_initiation_dev/tp_03/tp003/fonctions.c
+	"fonctions.h"
+
+1727938175 /home/donat/Documents/tp_initiation_dev/tp_03/tp003/fonctions.h
+
+1727938075 source:/home/donat/Documents/tp_initiation_dev/tp_03/tp003/main.c
+	<stdio.h>
+	"fonctions.h"
+
+1727937811 /home/donat/Documents/tp_initiation_dev/tp_03/tp003/fonctions.c
+	"fonctions.h"
+
