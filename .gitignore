@@ -3,3 +3,8 @@
 
 # For linux compiled files
 *.out
+
+# For config files
+.templates/
+.vscode/
+*.config.js
